@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+body{
+    direction:ltr;
+}
+
+.r{
+    float: right;
+}
+.l{
+    float: left;
+}
+.c{
+    clear: both;
+}
+.w{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+/*  header style*/
+
+.headertop{
+    background: url('../images/header_bg.png');
+    background-repeat: repeat-x;
+}
+.logo{
+    padding: 17px ;
+}
+
+/* menuBar style*/
+.menuBar{
+    background: #f5f5f5;
+    border-bottom: 3px solid #ccc;
+}
+.menuBar ul{
+    list-style: none;
+}
+.menuBar ul li{
+    float:left;
+    padding: 15px 3px;
+    margin: left 5px; ;
+}
+.menuBar ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #092235;
+    padding: 10px;
+    border-radius: 3px;
+}
+.menuBar ul li a:hover{
+    background-color:#092235;
+    color:#fff;
+}
+
+/* search area*/
+.search{
+    background: #f5f5f5;
+ border-bottom: 3px solid #ccc; 
+ padding: 10px;  
+}
+.searchFrom input [type=text] {
+    padding: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ccc;
+    width: 150px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+
+.sochil ul{
+  list-style:none;  
+  margin-top: 2px;
+}
+.sochil ul li{
+    float: left;
+    padding: 5px 10px;
+}
+.sochil ul li a{
+    color: #555;
+}
+.sochil ul li a:hover{
+    color: #999;
+}
+
+/* content style*/
+.content ul{
+    list-style: none;
+}
+.content ul li{
+    float: left;
+    margin-right: 13px;
+ }
+ .product{
+     margin: 0px;
+     padding: 0px;
+ }
+ #pro_img{
+     width: 320px;
+     height: 200px;
+ }
+ #pro_img img{ 
+     border-radius: 4px;
+ }
+ #pro_img img:hover{
+     opacity: 0.7;
+ }
+ #pro_title{
+    text-decoration: none;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 12px;
+     font-weight: bold;
+     float: left;
+     color: #092235;
+     margin: 6px;
+ }
+#pro_bay{
+    float: right;
+    margin: 5px;
+}
+
+/* footer style*/
+.footer{
+    background: #999;
+    padding: 40px 10px;
+}
+.footerMenu ul{
+    list-style: none;
+}
+.footerMenu ul li{
+    float: left;
+    margin-right: 7px;
+    padding: 7px;
+}
+.footerMenu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footerMenu ul li a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    background: #777;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+
+}
+    
